@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: devfile-sample-hello-world-vdt7
     spec:
       containers:
-      - image: hello-world:latest
+      - image: quay.io/tnevrlka-test/build-e2e-kwpo-tenant/build-suite-test-application-ghwo/devfile-sample-hello-world-vdt7@sha256:d59b2547d53e531ecbff827048ba58edbe919ed069d418a953e1cbd1c4d7065d
         name: my-nginx
         ports:
         - containerPort: 8080
